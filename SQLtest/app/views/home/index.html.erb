@@ -1,0 +1,10 @@
+<h2>hello</h2>
+<%= link_to "New Group" ,new_group_path %>
+
+<div>
+<% @events.each do |event| %>
+<div>
+<%= link_to event.name, group_event_path(event.group, event) %>
+</div>
+<% end %>
+</div>

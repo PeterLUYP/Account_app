@@ -1,0 +1,2 @@
+module IntermediationHelper
+end
